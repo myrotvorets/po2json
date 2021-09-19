@@ -1,0 +1,35 @@
+{
+  "name": "@myrotvorets/po2json",
+  "version": "1.0.0",
+  "main": "dist/po2json.js",
+  "bin": {
+    "po2json": "dist/po2json.js"
+  },
+  "scripts": {
+    "build": "ncc build -mq po2json.js && mv dist/index.js dist/po2json.js"
+  },
+  "keywords": [
+    "po",
+    "jed",
+    "wordpress",
+    "i18n",
+    "internationalization"
+  ],
+  "author": "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)",
+  "license": "MIT",
+  "dependencies": {
+    "pofile": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrotvorets/po2json.git"
+  },
+  "description": "Convers a PO files into JED compatible with WordPress i18n",
+  "bugs": {
+    "url": "https://github.com/myrotvorets/po2json/issues"
+  },
+  "homepage": "https://github.com/myrotvorets/po2json#readme"
+}

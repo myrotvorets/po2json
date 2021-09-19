@@ -21,10 +21,10 @@
   "author": "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)",
   "license": "MIT",
   "dependencies": {
-    "pofile": "^1.1.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.31.1"
+    "@vercel/ncc": "^0.31.1",
+    "pofile": "^1.1.1"
   },
   "repository": {
     "type": "git",

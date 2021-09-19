@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/myrotvorets/po2json/issues"
   },
-  "homepage": "https://github.com/myrotvorets/po2json#readme"
+  "homepage": "https://github.com/myrotvorets/po2json#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

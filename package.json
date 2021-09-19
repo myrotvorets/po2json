@@ -1,6 +1,6 @@
 {
   "name": "@myrotvorets/po2json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/po2json.js",
   "bin": {
     "po2json": "dist/po2json.js"
@@ -20,8 +20,7 @@
   ],
   "author": "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@vercel/ncc": "^0.31.1",
     "pofile": "^1.1.1"

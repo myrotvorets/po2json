@@ -15,6 +15,9 @@
     "i18n",
     "internationalization"
   ],
+  "files": [
+    "dist/po2json.js"
+  ],
   "author": "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)",
   "license": "MIT",
   "dependencies": {

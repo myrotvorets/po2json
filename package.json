@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "@vercel/ncc": "^0.38.0",
-    "pofile": "^1.1.1"
+    "pofile": "^1.1.4"
   },
   "repository": {
     "type": "git",

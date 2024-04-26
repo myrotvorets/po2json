@@ -6,7 +6,8 @@
     "po2json": "dist/po2json.js"
   },
   "scripts": {
-    "build": "ncc build -mq po2json.js && mv dist/index.js dist/po2json.js"
+    "build": "ncc build -mq po2json.js && mv dist/index.js dist/po2json.js",
+    "test": "exit 0"
   },
   "keywords": [
     "po",

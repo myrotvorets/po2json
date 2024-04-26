@@ -1,6 +1,6 @@
 {
   "name": "@myrotvorets/po2json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/po2json.js",
   "bin": {
     "po2json": "dist/po2json.js"

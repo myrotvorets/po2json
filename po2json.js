@@ -10,7 +10,7 @@ if (process.argv.length === 3) {
                 "": {
                     domain: po.headers['X-Domain'] || 'messages',
                     lang: po.headers.Language,
-                    'plural-forms': po.headers['Plural-Forms'],
+                    plural_forms: po.headers['Plural-Forms'],
                 },
             };
 
